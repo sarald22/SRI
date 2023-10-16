@@ -5,7 +5,7 @@
 
 1. Configura un contenedor con la imagen oficial de bind9 utilizando docker-compose.
 
-
+https://github.com/sarald22/SRI/blob/main/tareas/Tarea4DockerCompose/imagenes/ejercicio1.png
 
 2. Utiliza los volumenes tal como lo explica en el setup de la imagen
 
