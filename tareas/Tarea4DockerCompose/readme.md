@@ -4,7 +4,7 @@
 
 4. Añade un Readme.md con la descripción de las opciones del docker-compose.yml
 
-# services es para crear nuestro servicio de DNS, dentro de él irán los demás elementos
+### services es para crear nuestro servicio de DNS, dentro de él irán los demás elementos
 
 services:
 
@@ -43,4 +43,4 @@ networks:
   bind9_subnet: 
 
     external: true
-    
+
