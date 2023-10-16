@@ -5,43 +5,44 @@
 4. Añade un Readme.md con la descripción de las opciones del docker-compose.yml
 
 
-services es para crear nuestro servicio de DNS, dentro de él irán los demás elementos
+services es para crear nuestro servicio de DNS; dentro de él irán los demás elementos
 
-services:
+            services:
 
-  bind9:
+en bind pondremos nuestra imagen a descargar y usar; en este caso la de bind9:9.16
+            bind9:
 
-    image: internetsystemsconsortium/bind9:9.16
+                image: internetsystemsconsortium/bind9:9.16
 
-    container_name: asir_bind9
+                container_name: asir_bind9
 
-    restart: always
+                restart: always
 
-    ports:
+                ports:
 
-      - 53:53/tcp
+                - 53:53/tcp
 
-      - 53:53/udp
+                - 53:53/udp
 
-    networks:
+                networks:
 
-      bind9_subnet:
+                bind9_subnet:
 
-        ipv4_address: 172.28.5.1
+                    ipv4_address: 172.28.5.1
 
-    volumes:
+                volumes:
 
-      - ./conf:/etc/bind
+                - ./conf:/etc/bind
 
-      - ./lib:/var/lib/bind
+                - ./lib:/var/lib/bind
 
-    environment:
+                environment:
 
-      - TZ=Europe/Paris
+                - TZ=Europe/Paris
 
-networks:
+            networks:
 
-  bind9_subnet: 
+            bind9_subnet: 
 
-    external: true
+                external: true
 
