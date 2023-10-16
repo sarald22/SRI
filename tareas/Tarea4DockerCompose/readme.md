@@ -14,9 +14,15 @@ en bind pondremos nuestra imagen a descargar y usar; en este caso la de bind9:9.
 
                 image: internetsystemsconsortium/bind9:9.16
 
+aquí ponemos el nombre de nuestro contenedor a crear
+
                 container_name: asir_bind9
 
+esto es para que se reinicie cada vez que iniciemos docker
+
                 restart: always
+
+aquí ponemos los puertos a usar en neustro servidor y los protocolos a usar. En este caso es el puerto 53 y los protocolos tcp y udp
 
                 ports:
 
