@@ -30,11 +30,15 @@ aquí ponemos los puertos a usar en neustro servidor y los protocolos a usar. En
 
                 - 53:53/udp
 
+en este apartado pondremos las redes q usar: la 172.28.5.1
+
                 networks:
 
                 bind9_subnet:
 
                     ipv4_address: 172.28.5.1
+
+volumes es donde se almacenarán los datos generados para la configuracion del servidor y de donde se recogerán las configuraciones establecias
 
                 volumes:
 
@@ -45,6 +49,8 @@ aquí ponemos los puertos a usar en neustro servidor y los protocolos a usar. En
                 environment:
 
                 - TZ=Europe/Paris
+
+en este ultimo apartado de redes, que tiene que estar fuera de servicios, pondremos que la subred de bind9 debe ser externa
 
             networks:
 
