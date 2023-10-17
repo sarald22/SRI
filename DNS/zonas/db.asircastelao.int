@@ -10,5 +10,5 @@ $TTL 38400	; 10 hours 40 minutes
 ns		IN A 		172.28.5.1
 test	IN A		172.28.5.4
 alias	IN A  		172.28.5.7
-alias	IN CAME		test
+texto	IN CNAME		test
 alias	IN TXT    	mensaje
