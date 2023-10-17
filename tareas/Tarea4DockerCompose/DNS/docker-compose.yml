@@ -1,8 +1,8 @@
 services:
   bind9:
-    image: internetsystemsconsortium/bind9:9.16
+    image: ubuntu/bind9
     container_name: asir_bind9
-    restart: always
+    #restart: always
     ports:
       - 53:53/tcp
       - 53:53/udp
@@ -11,7 +11,7 @@ services:
         ipv4_address: 172.28.5.1
     volumes:
       - ./conf:/etc/bind
-      - ./lib:/var/lib/bind
+      - ./zonas:/var/lib/bind
     environment:
       - TZ=Europe/Paris
 

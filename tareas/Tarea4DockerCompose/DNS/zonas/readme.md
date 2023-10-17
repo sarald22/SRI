@@ -7,7 +7,7 @@ include "/etc/bind/named.conf.local";
 
 
 ___________
-apuntamos con dos [   ] a un servidor dns para que nos dé la misma IP
+apuntamps con dos noseque a un servidor dns para que nos dé la misma IP
 
 objetivo: configurar servidor de DNS con contenedor
 
