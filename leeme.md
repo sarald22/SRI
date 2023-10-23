@@ -6,7 +6,7 @@
 ### git push -u origin main
 ### ______________________________
 
-# LOS EJERCICIOS DE CLASE ESTÁN EN LA CARETA DE EJERCICIOS 
+# Los ejercicios de clase están en la carpeta de TAREAS
 
 ### ______________________________
 ## Página sintaxis formato
