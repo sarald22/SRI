@@ -1,7 +1,8 @@
 configurar un DNS en Docker Compose
 
 
-Para [        ]
+Para incluir el contenido del archivo "/etc/bind/named.conf.options" en la configuración principal del servidor dns. Permite dividir la configuración en varios archivos:
+
 include "/etc/bind/named.conf.options";
 include "/etc/bind/named.conf.local";
 
