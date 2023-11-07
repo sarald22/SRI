@@ -6,12 +6,14 @@ Comprueba su uso.
 
 Instala, si es necesario, para poder usar el comando 'dig'.
 
-Configura el cliente para que su DNS sea el otro contenedor, modificando el resolv.conf o utilizando el fichero docker-compose.yml.
+### Configura el cliente para que su DNS sea el otro contenedor, modificando el resolv.conf o utilizando el fichero docker-compose.yml.
 
-Compruébalo con 'dig'.
-Adjunta el repositorio y completa el Readme con lo realizado (comandos para instalar paquetes y pruebas con 'dig').
+### Compruébalo con 'dig'.
+### Adjunta el repositorio y completa el Readme con lo realizado (comandos para instalar paquetes y pruebas con 'dig').
 
 
 
-1. Creamos el archivo docker-compose para levantar el servidor.
+1. Creamos el archivo docker-compose para levantar el servidor:
+
+![configuraciondockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockercompose.png)
 
