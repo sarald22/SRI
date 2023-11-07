@@ -9,7 +9,7 @@ Para comprobar los log puedes ver el fichero: /var/log/syslog , aunque lo mejor 
 
 
 1. Instalamos en la maquina virtual bind9 con el comando 'sudo apt install bind9'
-
+![foto1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_180250.png)
 
 2. ponemos el comando 'systemctl status bind9' para ver su estado y si está arrancado o no.
 
