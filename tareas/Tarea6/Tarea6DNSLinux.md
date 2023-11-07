@@ -1,15 +1,13 @@
 
 ## ENUNCIADO:
 ### Utiliza una máquina virtual Ubuntu Server LTS
-### Instala bind9 con apt
+### Instala bind9
 ### Configura las zonas del DNS igual que en docker
 ### Comprueba (en el propio servidor) con el comando 'dig' que el servidor funciona
 
 # 
 
-1. <font color="blue">Instalamos en la maquina virtual bind9 con el siguiente comando</font>
- 
-
+1. Instalamos en la maquina virtual bind9 con el siguiente comando: 
 
             sudo apt install bind9
 
@@ -42,13 +40,21 @@
 
 # 
 
-5. cuando acabemos probamos si el servidor funciona con el comando:
+
+5. en la carpeta /var/lib/bind tambien debemos poner la zona de nuestro servidor. En este caso, 'db.asircastelao.int'
+![foto5] (https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_182240.png)
+
+
+#
+
+
+6. cuando acabemos probamos si el servidor funciona con el comando:
 
             dig ns.asircastelao.int.
 
     y vemos si envia paquetes o no.
 
-![foto5](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_165558.png)
+![foto6](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_165558.png)
 
 
 
