@@ -33,6 +33,33 @@
 #
 
 3. ## Para poder usar el comando 'dig' tenemos que instalar los paquetes de herramientas DNS:
-            sudo apt isntall dnsutils
+            sudo apt install dnsutils
+
+#
+
+4. ## el cliente quedaria asi configurado:
+
+![configuraciondockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockercomposecliente.png)
 
 
+
+5. ## para que todo funcione, debemos poner en las network de nuestros docker la dirección de la Network en bridge del equipo. Vamos al archivo de dicha red y le damos a Inspect. Veremos esto:
+
+![network](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/network.png)
+
+## como podemos observar, la red es 172.17.0.0/16, por lo que a nuestros docker le tenemos que poner la 172.17.0.0 y la 172.17.0.1.
+
+
+#
+
+6. ## Ahora, para ver si funciona todo correctamente, solo tenemos que encender el docker con el comando:
+            docker-comopse up
+
+![dockerup](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockerup.png)
+
+![dockerupcliente](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockerupcliente.png)
+
+
+## y nos quedarian asi encendidos:
+
+![servidorencendido](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/servidorencendido.png)
