@@ -5,7 +5,7 @@
 ### Configura las zonas del DNS igual que en docker
 ### Comprueba (en el propio servidor) con el comando 'dig' que el servidor funciona
 
-
+# 
 
 1. Instalamos en la maquina virtual bind9 con el siguiente comando: 
 
