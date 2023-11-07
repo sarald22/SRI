@@ -8,9 +8,9 @@
 
 1. Instalamos en la maquina virtual bind9 con el siguiente comando: 
 
-'''
-    sudo apt install bind9
-'''
+
+            sudo apt install bind9
+
 
 ![foto1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_180250.png)
 
