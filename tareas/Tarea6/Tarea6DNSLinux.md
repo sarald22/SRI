@@ -1,4 +1,5 @@
 
+## ENUNCIADO:
 ### Utiliza una máquina virtual Ubuntu Server LTS
 ### Instala bind9 con apt
 ### Configura las zonas del DNS igual que en docker
@@ -41,7 +42,7 @@
             dig ns.asircastelao.int.
 
     y vemos si envia paquetes o no.
-    
+
 ![foto5](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_165558.png)
 
 
