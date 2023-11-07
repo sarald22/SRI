@@ -42,7 +42,7 @@
 
 
 5. en la carpeta /var/lib/bind tambien debemos poner la zona de nuestro servidor. En este caso, 'db.asircastelao.int'
-![foto5] (https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_182240.png)
+![foto5](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_182240.png)
 
 
 #
