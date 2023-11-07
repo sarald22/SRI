@@ -38,6 +38,9 @@
 ![foto4](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_180435.png)
 
 
+![foto4.2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_183023.png)
+
+
 # 
 
 
@@ -52,9 +55,16 @@
 
             dig ns.asircastelao.int.
 
-    y vemos si envia paquetes o no.
+    y vemos si envia paquetes o no y quien nos contesta:
 
 ![foto6](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_165558.png)
+
+
+#
+
+
+7. Los archivos del DNS deberian quedar asi:
+
 
 
 
