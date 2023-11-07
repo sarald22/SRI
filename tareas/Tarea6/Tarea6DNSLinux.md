@@ -7,7 +7,8 @@
 
 # 
 
-1. <span style="color:blue">Instalamos en la maquina virtual bind9 con el siguiente comando</span> 
+1. <font color="blue">Instalamos en la maquina virtual bind9 con el siguiente comando</font>
+ 
 
 
             sudo apt install bind9
