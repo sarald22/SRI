@@ -1,10 +1,10 @@
-Añade al docker-compose del DNS otro servicio (contenedor) que haga la función de cliente.
-Utiliza una imágen alpine
+### Añade al docker-compose del DNS otro servicio (contenedor) que haga la función de cliente.
+### Utiliza una imágen alpine
 
-Instala los paquetes necesarios para poder usar en el cliente los comandos de red del siguiente enlace.
-Comprueba su uso.
+### Instala los paquetes necesarios para poder usar en el cliente los comandos de red del siguiente enlace.
+### Comprueba su uso.
 
-Instala, si es necesario, para poder usar el comando 'dig'.
+### Instala, si es necesario, para poder usar el comando 'dig'.
 
 ### Configura el cliente para que su DNS sea el otro contenedor, modificando el resolv.conf o utilizando el fichero docker-compose.yml.
 
@@ -13,7 +13,8 @@ Instala, si es necesario, para poder usar el comando 'dig'.
 
 
 
-1. Creamos el archivo docker-compose para levantar el servidor:
+1. ## Creamos el archivo docker-compose para levantar el servidor:
 
 ![configuraciondockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockercompose.png)
+
 
