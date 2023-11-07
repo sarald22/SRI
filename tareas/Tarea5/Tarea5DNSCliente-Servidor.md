@@ -18,8 +18,21 @@
 ![configuraciondockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockercompose.png)
 
 
+## y luego el archivo docker del cliente:
+
+![configuraciondockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockercomposecliente.png)
+
+
 #
 
-2. El resto de archivos de configuracion y de zonas los dejamos igual. Con las mismas redes.
+2. ## El resto de archivos de configuracion y de zonas los dejamos igual. Con las mismas redes.
 
 ![archivosdns](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/archivosdns.png)
+
+
+#
+
+3. ## Para poder usar el comando 'dig' tenemos que instalar los paquetes de herramientas DNS:
+            sudo apt isntall dnsutils
+
+
