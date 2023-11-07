@@ -35,7 +35,7 @@
 
 4. entramos a cada documento y le cambiamos la configuración del servidor.
 
-![foto4](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_180435.png)
+![foto4](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/fotoscarpeta.png)
 
 
 ![foto4.2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_183023.png)
