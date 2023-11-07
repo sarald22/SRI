@@ -1,14 +1,15 @@
 
-Para comprobar los log puedes ver el fichero: /var/log/syslog , aunque lo mejor es configurarlo como en la guia
-
-    Utiliza una máquina virtual Ubuntu Server LTS
-    Instala bind9 con apt
-    Configura las zonas del DNS igual que en docker
-    Comprueba (en el propio servidor) con el comando 'dig' que el servidor funciona
+### Utiliza una máquina virtual Ubuntu Server LTS
+### Instala bind9 con apt
+### Configura las zonas del DNS igual que en docker
+### Comprueba (en el propio servidor) con el comando 'dig' que el servidor funciona
 
 
 
-1. Instalamos en la maquina virtual bind9 con el comando 'sudo apt install bind9'
+1. Instalamos en la maquina virtual bind9 con el comando 
+'''
+sudo apt install bind9
+'''
 ![foto1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/Screenshot_20231107_180250.png)
 
 
