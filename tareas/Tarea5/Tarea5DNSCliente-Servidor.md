@@ -50,16 +50,38 @@
 ## como podemos observar, la red es 172.17.0.0/16, por lo que a nuestros docker le tenemos que poner la 172.17.0.0 y la 172.17.0.1.
 
 
-#
 
 6. ## Ahora, para ver si funciona todo correctamente, solo tenemos que encender el docker con el comando:
-            docker-comopse up
+            docker-compose up
+
+#
 
 ![dockerup](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockerup.png)
 
+
+## el cliente lo encendemos con:
+            docker-compose -f docker-compose_client.yml up
+            
 ![dockerupcliente](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dockerupcliente.png)
 
 
 ## y nos quedarian asi encendidos:
 
 ![servidorencendido](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/servidorencendido.png)
+
+
+#
+
+7. ## para comprobar si funciona todo, vamos a la shell del cliente e instalamos los paquetes de dns para poder usar dig:
+        apk add --no-cache bind-tools
+
+
+![shell](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/shell.png)
+
+
+![dig](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/dig.png)
+
+
+## hacemos dig al servidor y vemos si envia paquetes:
+
+![digservidor](https://github.com/sarald22/SRI/blob/main/tareas/Tarea5/digservidor.png)
