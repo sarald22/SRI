@@ -65,6 +65,31 @@
 
 7. Los archivos del DNS deberian quedar asi:
 
+docker-compose
+
+![foto7](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/dockercompose.png)
+
+
+conflocal
+
+![foto7](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/conflocal.png)
+
+
+confoptions
+
+![foto7](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/confoptions.png)
+
+
+
+defaultzones
+
+![foto7](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/defaultzones.png)
+
+
+
+namedconf
+
+![foto7](https://github.com/sarald22/SRI/blob/main/tareas/Tarea6/dockercompose.png)
 
 
 
