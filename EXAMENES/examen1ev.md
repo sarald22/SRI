@@ -120,9 +120,7 @@ Para que no se borre podemos usar los archivos de docker-compose y crear todos l
 Además, a la hora de crear un DNS debemos tener los archivos de conf y de zonas creados:
 
 ![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejericico8.png)
-
 #
-
 Como ejemplo podemos tomar las carpetas adjuntadas en este repositorio:
 
 - carpeta de zonas:
@@ -144,8 +142,6 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 - un registro de texto con el contenido "1234ASDF"
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejercicio9zona.png)
-
-
 #
 
 - Comprueba que todo funciona con el comando "dig"
@@ -155,19 +151,16 @@ Entramos a la terminal del contenedor de la siguiente manera e introducimos los 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/shelldocker.png)
 
 #
-
     - dig www.tiendadeelectronica.int
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker1.png)
 
 #
-
     - dig owncloud.tiendadeelectronica.int
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker2.png)
 
 #
-
 - Muestra en los logs que el servicio arranca correctamente
 
 Los logs podemos verlos de 2 maneras:
