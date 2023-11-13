@@ -198,6 +198,7 @@ Ahora hacemos un 'sudo service bind9 restart' y vemos el estado del DNS con 'sud
 - Comprueba que todo funciona con el comando "dig"
 
 Ahora en la terminal ponermos los comandos de ejemplo:
+
     - dig www.tiendadeelectronica.int
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digbind1.png)
@@ -210,4 +211,8 @@ Ahora en la terminal ponermos los comandos de ejemplo:
 #
 - Muestra en los logs que el servicio arranca correctamente
 
+Podemos usar el comando 'tail', que es para ver las ultimas lineas de un archivo en la terminal:
 
+            tail /var/log/syslog
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/logsbind.png)
