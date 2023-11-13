@@ -146,16 +146,25 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 
 
 - Comprueba que todo funciona con el comando "dig"
+
+Entramos a la terminal del contenedor de la siguiente manera e introducimos los comandos de dig. Para poder hacerlo primeramente tenemos que instalar los paquetes de dnsutils para poder usar el dig, con 'apt install dnsutils':
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/shelldocker.png)
+
 dig www.tiendadeelectronica.int
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker1.png)
+
 dig owncloud.tiendadeelectronica.int
-dig -t TXT tiendadeelectronica.int
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker2.png)
 
 
 - Muestra en los logs que el servicio arranca correctamente
 
 Los logs podemos verlos de 2 maneras:
 
-Los que nos salen en la terminal, bien iniciando el contenedor o poniendo el comando 'docker-compose logs asir_bind9':
+Los que nos salen en la terminal, bien iniciando el contenedor o poniendo el comando 'docker-compose logs asir_bind9_examen':
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendiendodocker.png)
 
