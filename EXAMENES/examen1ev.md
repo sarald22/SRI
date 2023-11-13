@@ -46,6 +46,7 @@ Puedes abrirlo de varias formas, como lo son:
 ### 3. ¿Cómo sería un fichero docker-compose para que dos contenedores se comuniquen entre si en una red solo de ellos?
 
 Como el mostrado en el siguiente enlace:
+
             https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml 
 
 ### 4. ¿Qué hay que añadir al fichero anterior para que un contenedor tenga la IP fija?
