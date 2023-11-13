@@ -190,8 +190,22 @@ Debemos ir a la carpeta de bind9 en la maquina y crear un archivo llamando 'db.t
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/maquinazona.png)
 
+Ahora hacemos un 'sudo service bind9 restart' y vemos el estado del DNS con 'sudo systemctl status bind9':
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/bindencendido.png)
+
 #
 - Comprueba que todo funciona con el comando "dig"
+
+Ahora en la terminal ponermos los comandos de ejemplo:
+    - dig www.tiendadeelectronica.int
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digbind1.png)
+
+#
+    - dig owncloud.tiendadeelectronica.int
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digbind2.png)
 
 #
 - Muestra en los logs que el servicio arranca correctamente
