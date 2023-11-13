@@ -1,7 +1,7 @@
 services:
   bind9_examen:
     image: ubuntu/bind9
-    container_name: asir_bind9
+    container_name: asir_bind9_examen
     ports:
       - 53:53/tcp
       - 53:53/udp
@@ -19,7 +19,7 @@ services:
 
   asir_cliente_examen:
     image: alpine
-    container_name: asir_cliente
+    container_name: asir_cliente_examen
     ports:
       - 80:80/tcp
       - 80:80/udp
