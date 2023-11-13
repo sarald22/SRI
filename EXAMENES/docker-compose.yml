@@ -1,5 +1,5 @@
 services:
-  bind9:
+  bind9_examen:
     image: ubuntu/bind9
     container_name: asir_bind9
     ports:
@@ -17,7 +17,7 @@ services:
       - TZ=Europe/Paris
 
 
-  asir_cliente:
+  asir_cliente_examen:
     image: alpine
     container_name: asir_cliente
     ports:
