@@ -1,12 +1,11 @@
 
 1. Explica métodos para 'abrir' una consola/shell a un contenedor que se está ejecutando
 
-- 'docker exec -it nombre_del_contenedor /bin/bash'
+- 'docker exec -it nombre_contenedor /bin/bash'
 
+- 'docker attach nombre_contenedor'
 
-docker attach nombre_del_contenedor
-
-docker run -it nombre_de_la_imagen /bin/bash
+- 'docker run -it nombre_imagen_contenedor /bin/bash'
 
 
 2. En el contenedor anterior con que opciones tiene que haber sido arrancado para poder interactuar con las entradas y salidas del contenedor
