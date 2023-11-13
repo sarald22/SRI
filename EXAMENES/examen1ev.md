@@ -121,6 +121,15 @@ Además, a la hora de crear un DNS debemos tener los archivos de config y de zon
 
 ![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejericico8.png)
 
+Como ejemplo podemos tomar las carpetas adjuntadas en este repositorio:
+
+carpeta zonas:
+
+https://github.com/sarald22/SRI/tree/main/EXAMENES/zonas
+
+carpeta config:
+
+https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 
 
 #
