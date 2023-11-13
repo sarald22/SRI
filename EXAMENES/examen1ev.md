@@ -146,9 +146,18 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 
 
 - Comprueba que todo funciona con el comando "dig"
+dig www.tiendadeelectronica.int
+dig owncloud.tiendadeelectronica.int
+dig -t TXT tiendadeelectronica.int
+
 
 - Muestra en los logs que el servicio arranca correctamente
 
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendiendodocker.png)
+
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendido.png)
+
+docker-compose logs asir_bind9
 
 
 #
