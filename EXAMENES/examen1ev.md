@@ -1,15 +1,15 @@
 
 ### 1. Explica métodos para 'abrir' una consola/shell a un contenedor que se está ejecutando
 
-- 'docker exec -it nombre_contenedor /bin/bash'
+            'docker exec -it nombre_contenedor /bin/bash'
 
 sirve para ejecutar comandos dentro del contenedor como si fuera una consola
 
-- 'docker attach nombre_contenedor'
+            'docker attach nombre_contenedor'
 
 con él te puedes conectar a un contenedor en la sesión que se está realizando y para conectarte con sus entradas y salidas. Para salir puedes usar CTRL+Q
 
-- 'docker run -it nombre_imagen_contenedor /bin/bash'
+            'docker run -it nombre_imagen_contenedor /bin/bash'
 
 para abrir una sesion interactiva con el contenedor.
 
@@ -17,16 +17,27 @@ para abrir una sesion interactiva con el contenedor.
 ### 2. En el contenedor anterior con que opciones tiene que haber sido arrancado para poder interactuar con las entradas y salidas del contenedor
 
 Puedes abrirlo de varias formas, como lo son:
-- docker run -it nombre_contenedor
 
+- docker run -it nombre_imagen_contenedor
 
-- docker run -p nombre_contenedor
+La 'i' mantiene abierta la salida estándar y la 't' asigna una terminal al contenedor.
 
+- docker run -d
 
-- docker run -d nombre_contenedor
+Sirve para ejecutar el contenedor en segundo plano. Puedes interactuar con él luego con el comando:
 
+            docker exect -it nombre_contenedor /bin/bash
+
+- docker run -p 'puerto':'puerto' nombre_iamgen
+
+La 'p' sirve para mapear los puertos del contenedor.
 
 - docker run -v nombre_contenedor
+
+Sirve para montar los volumenes del contenedor desde el host. Por ejemplo:
+            docker run -v /etc/bin/asir:/home/servidor/asir httpd
+
+
 
 
 ### 3. ¿Cómo sería un fichero docker-compose para que dos contenedores se comuniquen entre si en una red solo de ellos?
