@@ -47,11 +47,19 @@ Puedes abrirlo de varias formas, como lo son:
 
 Como el mostrado en el siguiente enlace:
 
-            https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml 
+    https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml 
+
+
 
 ### 4. ¿Qué hay que añadir al fichero anterior para que un contenedor tenga la IP fija?
 
+Para hacerlo, podemos eliminar la asignación de puertos porque no haria falta para asignar la IP fija. Tendriamos que añadir en networks las lineas:
 
+            networks:
+                bind9_subnet:
+                    ipv4_address: 172.28.5.2
+
+pero como ya están escritas, ya no haría falta ponerlas. Es así como se le asigna la IP fija al contenedor.
 
 ### 5. ¿Que comando de consola puedo usar para saber las ips de los contenedores anteriores? Filtra todo lo que puedas la salida.
 
