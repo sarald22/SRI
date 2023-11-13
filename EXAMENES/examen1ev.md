@@ -141,7 +141,7 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 - owncloud sea un CNAME de www
 - un registro de texto con el contenido "1234ASDF"
 
-![fotocazona](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejercicio9zona.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejercicio9zona.png)
 
 
 
