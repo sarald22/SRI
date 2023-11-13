@@ -112,6 +112,15 @@ https://github.com/sarald22/SRI/blob/main/EXAMENES/zonas/db.asircastelao.int
 
 ### 8. ¿Como puedo hacer para que la configuración de un contenedor DNS no se borre si creo otro contenedor?
 
+para que no se borre podemos usar los archivos de docker-compose y crear todos los que necesitemos. En ellos debemos añadir los apartados de volumenes, y que se vayan asignando segun vamos haciendo un contenedor nuevo. Por ejemplo:
+                volumes:
+            - ./conf:/etc/bind
+            - ./zonas:/var/lib/bind
+
+Además, a la hora de crear un DNS debemos tener los archivos de config y de zonas creados:
+
+![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejericico8.png)
+
 
 
 #
@@ -119,25 +128,29 @@ https://github.com/sarald22/SRI/blob/main/EXAMENES/zonas/db.asircastelao.int
 
 ### 9. Añade una zona tiendadeelectronica.int en tu docker DNS que tenga
 
-    - www a la IP 172.16.0.1
-    - owncloud sea un CNAME de www
-    - un registro de texto con el contenido "1234ASDF"
-    - Comprueba que todo funciona con el comando "dig"
-    - Muestra en los logs que el servicio arranca correctamente
+- www a la IP 172.16.0.1
+
+- owncloud sea un CNAME de www
+
+- un registro de texto con el contenido "1234ASDF"
+
+- Comprueba que todo funciona con el comando "dig"
+
+- Muestra en los logs que el servicio arranca correctamente
 
 
 
 #
 ### 10. Realiza el apartado 9 en la máquina virtual con DNS
 
-    - www a la IP 172.16.0.1
+- www a la IP 172.16.0.1
 
-    - owncloud sea un CNAME de www
+- owncloud sea un CNAME de www
 
-    - un registro de texto con el contenido "1234ASDF"
+- un registro de texto con el contenido "1234ASDF"
 
-    - Comprueba que todo funciona con el comando "dig"
+- Comprueba que todo funciona con el comando "dig"
 
-    - Muestra en los logs que el servicio arranca correctamente
+- Muestra en los logs que el servicio arranca correctamente
 
 
