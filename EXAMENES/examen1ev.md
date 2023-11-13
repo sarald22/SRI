@@ -112,7 +112,7 @@ https://github.com/sarald22/SRI/blob/main/EXAMENES/zonas/db.asircastelao.int
 
 ### 8. ¿Como puedo hacer para que la configuración de un contenedor DNS no se borre si creo otro contenedor?
 
-para que no se borre podemos usar los archivos de docker-compose y crear todos los que necesitemos. En ellos debemos añadir los apartados de volumenes, y que se vayan asignando segun vamos haciendo un contenedor nuevo. Por ejemplo:
+Para que no se borre podemos usar los archivos de docker-compose y crear todos los que necesitemos. En ellos debemos añadir los apartados de volumenes, y que se vayan asignando segun vamos haciendo un contenedor nuevo. Por ejemplo:
                 volumes:
             - ./conf:/etc/bind
             - ./zonas:/var/lib/bind
@@ -120,6 +120,8 @@ para que no se borre podemos usar los archivos de docker-compose y crear todos l
 Además, a la hora de crear un DNS debemos tener los archivos de conf y de zonas creados:
 
 ![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejericico8.png)
+
+#
 
 Como ejemplo podemos tomar las carpetas adjuntadas en este repositorio:
 
@@ -144,6 +146,7 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejercicio9zona.png)
 
 
+#
 
 - Comprueba que todo funciona con el comando "dig"
 
@@ -151,14 +154,19 @@ Entramos a la terminal del contenedor de la siguiente manera e introducimos los 
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/shelldocker.png)
 
+#
+
     - dig www.tiendadeelectronica.int
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker1.png)
+
+#
 
     - dig owncloud.tiendadeelectronica.int
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker2.png)
 
+#
 
 - Muestra en los logs que el servicio arranca correctamente
 
@@ -182,12 +190,13 @@ O yendo al apartado de docker y clicando encima del servidor y dandole a 'view l
 ### 10. Realiza el apartado 9 en la máquina virtual con DNS
 
 - www a la IP 172.16.0.1
-
 - owncloud sea un CNAME de www
-
 - un registro de texto con el contenido "1234ASDF"
 
+
+
 - Comprueba que todo funciona con el comando "dig"
+
 
 - Muestra en los logs que el servicio arranca correctamente
 
