@@ -47,7 +47,7 @@ Puedes abrirlo de varias formas, como lo son:
 
 Como el mostrado en el siguiente enlace:
 
-    https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml 
+https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml 
 
 
 
@@ -81,14 +81,27 @@ Sirve para indicar y mapear los puertos a los que el contenedor y el host deben 
 
 El protocolo es opcional. Puede verse un ejemplo en el docker-compose adjuntado en el ejercicio 3:
 
-    https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml
+https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml
+
 
 
 ### 7. ¿Para que sirve el registro CNAME? Pon un ejemplo
 
+Es un tipo de registro de DNS.
+Significa nombre canónico y hace que un dominio sea un alias para otro. El CNAME generalmente asocia nuevos subdominios con dominios ya existentes de registro A.
+Se debe indicar en el archivo de la zona del servidor; un ejemplo de ellos seria:
+
+        textooo IN  CNAME   www.danielcastelao.com
+
+Podemos ver otro ejemplo de CNAME en el archivo de zona de nuestro DNS:
+
+https://github.com/sarald22/SRI/blob/main/EXAMENES/zonas/db.asircastelao.int
+
+
 
 
 ### 8. ¿Como puedo hacer para que la configuración de un contenedor DNS no se borre si creo otro contenedor?
+
 
 
 
