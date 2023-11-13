@@ -153,11 +153,20 @@ dig -t TXT tiendadeelectronica.int
 
 - Muestra en los logs que el servicio arranca correctamente
 
+Los logs podemos verlos de 2 maneras:
+
+Los que nos salen en la terminal, bien iniciando el contenedor o poniendo el comando 'docker-compose logs asir_bind9':
+
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendiendodocker.png)
+
+
+O yendo al apartado de docker y clicando encima del servidor y dandole a 'view logs': 
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendido.png)
 
-docker-compose logs asir_bind9
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/logsdocker.png)
+
+
 
 
 #
