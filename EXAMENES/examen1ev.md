@@ -15,6 +15,7 @@
 
 
 #
+#
 
 ### 2. En el contenedor anterior con que opciones tiene que haber sido arrancado para poder interactuar con las entradas y salidas del contenedor
 
@@ -42,6 +43,7 @@ Puedes abrirlo de varias formas, como lo son:
 
 
 #
+#
 
 ### 3. ¿Cómo sería un fichero docker-compose para que dos contenedores se comuniquen entre si en una red solo de ellos?
 
@@ -51,6 +53,7 @@ https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml
 
 
 
+#
 #
 
 
@@ -67,6 +70,7 @@ pero como ya están escritas, ya no haría falta ponerlas. Es así como se le as
 
 
 #
+#
 
 ### 5. ¿Que comando de consola puedo usar para saber las ips de los contenedores anteriores? Filtra todo lo que puedas la salida.
 
@@ -76,6 +80,7 @@ Puedo usar el comando:
  
 
 
+#
 #
 
 
@@ -92,6 +97,7 @@ https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml
 
 
 #
+#
 
 
 ### 7. ¿Para que sirve el registro CNAME? Pon un ejemplo
@@ -107,6 +113,7 @@ Podemos ver otro ejemplo de CNAME en el archivo de zona de nuestro DNS:
 https://github.com/sarald22/SRI/blob/main/EXAMENES/zonas/db.asircastelao.int
 
 
+#
 #
 
 
@@ -132,6 +139,7 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/zonas
 https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 
 
+#
 #
 
 
@@ -179,6 +187,7 @@ O yendo al apartado de docker y clicando encima del servidor y dandole a 'view l
 
 
 
+#
 #
 ### 10. Realiza el apartado 9 en la máquina virtual con DNS
 
