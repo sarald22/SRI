@@ -117,17 +117,17 @@ para que no se borre podemos usar los archivos de docker-compose y crear todos l
             - ./conf:/etc/bind
             - ./zonas:/var/lib/bind
 
-Además, a la hora de crear un DNS debemos tener los archivos de config y de zonas creados:
+Además, a la hora de crear un DNS debemos tener los archivos de conf y de zonas creados:
 
 ![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejericico8.png)
 
 Como ejemplo podemos tomar las carpetas adjuntadas en este repositorio:
 
-carpeta zonas:
+- carpeta de zonas:
 
 https://github.com/sarald22/SRI/tree/main/EXAMENES/zonas
 
-carpeta config:
+- carpeta de configuración:
 
 https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 
@@ -138,10 +138,12 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 ### 9. Añade una zona tiendadeelectronica.int en tu docker DNS que tenga
 
 - www a la IP 172.16.0.1
-
 - owncloud sea un CNAME de www
-
 - un registro de texto con el contenido "1234ASDF"
+
+![fotocazona](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejercicio9zona.png)
+
+
 
 - Comprueba que todo funciona con el comando "dig"
 
