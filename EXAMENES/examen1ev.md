@@ -119,7 +119,7 @@ Para que no se borre podemos usar los archivos de docker-compose y crear todos l
 
 Además, a la hora de crear un DNS debemos tener los archivos de conf y de zonas creados:
 
-![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejericico8.png)
+![fotocarpetas](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/ejericico8.png)
 #
 Como ejemplo podemos tomar las carpetas adjuntadas en este repositorio:
 
@@ -141,24 +141,24 @@ https://github.com/sarald22/SRI/tree/main/EXAMENES/conf
 - owncloud sea un CNAME de www
 - un registro de texto con el contenido "1234ASDF"
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/ejercicio9zona.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/ejercicio9zona.png)
 #
 
 - Comprueba que todo funciona con el comando "dig"
 
 Entramos a la terminal del contenedor de la siguiente manera e introducimos los comandos de dig. Para poder hacerlo primeramente tenemos que instalar los paquetes de dnsutils para poder usar el dig, con 'apt install dnsutils':
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/shelldocker.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/shelldocker.png)
 
 #
     - dig www.tiendadeelectronica.int
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker1.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker1.png)
 
 #
     - dig owncloud.tiendadeelectronica.int
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/digdocker2.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker2.png)
 
 #
 - Muestra en los logs que el servicio arranca correctamente
@@ -167,14 +167,14 @@ Los logs podemos verlos de 2 maneras:
 
 Los que nos salen en la terminal, bien iniciando el contenedor o poniendo el comando 'docker-compose logs asir_bind9_examen':
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendiendodocker.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/encendiendodocker.png)
 
 
 O yendo al apartado de docker y clicando encima del servidor y dandole a 'view logs': 
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/encendido.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/encendido.png)
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/logsdocker.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/logsdocker.png)
 
 
 
@@ -188,7 +188,7 @@ O yendo al apartado de docker y clicando encima del servidor y dandole a 'view l
 
 Debemos ir a la carpeta de bind9 en la maquina y crear un archivo llamando 'db.tiendadeelectronica' y añadir lo mismo que añadimos en el archivo de DNS anterior:
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/maquinazona.png)
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/maquinazona.png)
 
 #
 - Comprueba que todo funciona con el comando "dig"
