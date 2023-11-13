@@ -14,6 +14,8 @@
 - para abrir una sesion interactiva con el contenedor.
 
 
+
+
 ### 2. En el contenedor anterior con que opciones tiene que haber sido arrancado para poder interactuar con las entradas y salidas del contenedor
 
 Puedes abrirlo de varias formas, como lo son:
@@ -35,6 +37,7 @@ Puedes abrirlo de varias formas, como lo son:
             docker run -v nombre_contenedor
 
 - Sirve para montar los volumenes del contenedor desde el host. Por ejemplo:
+
             docker run -v /etc/bin/asir:/home/servidor/asir httpd
 
 
@@ -42,7 +45,8 @@ Puedes abrirlo de varias formas, como lo son:
 
 ### 3. ¿Cómo sería un fichero docker-compose para que dos contenedores se comuniquen entre si en una red solo de ellos?
 
-
+Como el mostrado en el siguiente enlace:
+            https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml 
 
 ### 4. ¿Qué hay que añadir al fichero anterior para que un contenedor tenga la IP fija?
 
