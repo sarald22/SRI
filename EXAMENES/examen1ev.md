@@ -3,13 +3,18 @@
 
 - 'docker exec -it nombre_contenedor /bin/bash'
 
+sirve para ejecutar comandos dentro del contenedor como si fuera una consola
+
 - 'docker attach nombre_contenedor'
+
+es para conectarte a un contenedor en la sesión que se está realizando y para conectarte con sus entradas y salidas. Para salir puedes usar CTRL+Q
 
 - 'docker run -it nombre_imagen_contenedor /bin/bash'
 
+para abrir una sesion interactiva con el contenedor.
+
 
 2. En el contenedor anterior con que opciones tiene que haber sido arrancado para poder interactuar con las entradas y salidas del contenedor
-
 
 
 3. ¿Cómo sería un fichero docker-compose para que dos contenedores se comuniquen entre si en una red solo de ellos?
