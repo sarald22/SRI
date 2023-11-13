@@ -67,12 +67,21 @@ pero como ya están escritas, ya no haría falta ponerlas. Es así como se le as
 ### 5. ¿Que comando de consola puedo usar para saber las ips de los contenedores anteriores? Filtra todo lo que puedas la salida.
 
 Puedo usar el comando:
+
             docker inspect -f '{.Name} - {range .NetworkSettings.Networks}{.IPAddress}{end}' asir_bind9 asir_cliente
  
 
 
 ### 6. ¿Cual es la funcionalidad del apartado "ports" en docker compose?
 
+Sirve para indicar y mapear los puertos a los que el contenedor y el host deben conectarse. Tendria el formato:
+
+    ports:
+      - puerto_del_host:puerto_del_contenedor/protocolo_a_usar
+
+El protocolo es opcional. Puede verse un ejemplo en el docker-compose adjuntado en el ejercicio 3:
+
+    https://github.com/sarald22/SRI/blob/main/EXAMENES/docker-compose.yml
 
 
 ### 7. ¿Para que sirve el registro CNAME? Pon un ejemplo
