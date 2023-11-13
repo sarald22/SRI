@@ -3,38 +3,37 @@
 
             'docker exec -it nombre_contenedor /bin/bash'
 
-sirve para ejecutar comandos dentro del contenedor como si fuera una consola
+- sirve para ejecutar comandos dentro del contenedor como si fuera una consola
 
             'docker attach nombre_contenedor'
 
-con él te puedes conectar a un contenedor en la sesión que se está realizando y para conectarte con sus entradas y salidas. Para salir puedes usar CTRL+Q
+- con él te puedes conectar a un contenedor en la sesión que se está realizando y para conectarte con sus entradas y salidas. Para salir puedes usar CTRL+Q
 
             'docker run -it nombre_imagen_contenedor /bin/bash'
 
-para abrir una sesion interactiva con el contenedor.
+- para abrir una sesion interactiva con el contenedor.
 
 
 ### 2. En el contenedor anterior con que opciones tiene que haber sido arrancado para poder interactuar con las entradas y salidas del contenedor
 
 Puedes abrirlo de varias formas, como lo son:
 
-- docker run -it nombre_imagen_contenedor
+            docker run -it nombre_imagen_contenedor
 
-La 'i' mantiene abierta la salida estándar y la 't' asigna una terminal al contenedor.
+- La 'i' mantiene abierta la salida estándar y la 't' asigna una terminal al contenedor.
 
-- docker run -d
+            docker run -d
 
-Sirve para ejecutar el contenedor en segundo plano. Puedes interactuar con él luego con el comando:
+- Sirve para ejecutar el contenedor en segundo plano. Puedes interactuar con él luego con el comando: 'docker exect -it nombre_contenedor /bin/bash'
 
-            docker exect -it nombre_contenedor /bin/bash
 
-- docker run -p 'puerto':'puerto' nombre_iamgen
+            docker run -p 'puerto':'puerto' nombre_iamgen
 
-La 'p' sirve para mapear los puertos del contenedor.
+- La 'p' sirve para mapear los puertos del contenedor.
 
-- docker run -v nombre_contenedor
+            docker run -v nombre_contenedor
 
-Sirve para montar los volumenes del contenedor desde el host. Por ejemplo:
+- Sirve para montar los volumenes del contenedor desde el host. Por ejemplo:
             docker run -v /etc/bin/asir:/home/servidor/asir httpd
 
 
