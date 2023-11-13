@@ -186,11 +186,14 @@ O yendo al apartado de docker y clicando encima del servidor y dandole a 'view l
 - owncloud sea un CNAME de www
 - un registro de texto con el contenido "1234ASDF"
 
+Debemos ir a la carpeta de bind9 en la maquina y crear un archivo llamando 'db.tiendadeelectronica' y añadir lo mismo que añadimos en el archivo de DNS anterior:
 
+![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/maquinazona.png)
 
+#
 - Comprueba que todo funciona con el comando "dig"
 
-
+#
 - Muestra en los logs que el servicio arranca correctamente
 
 
