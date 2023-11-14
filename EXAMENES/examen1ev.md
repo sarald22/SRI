@@ -161,7 +161,7 @@ Entramos a la terminal del contenedor de la siguiente manera e introducimos los 
 #
     - dig @172.28.5.1 tiendadeelectronica.int
 
-![foto9](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker1.png)
+![foto9](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker.png)
 
 #
     - dig 172.28.5.1 tiendadeelectronica.int
