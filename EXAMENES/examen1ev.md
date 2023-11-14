@@ -159,12 +159,12 @@ Entramos a la terminal del contenedor de la siguiente manera e introducimos los 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/shelldocker.png)
 
 #
-    - dig www.tiendadeelectronica.int
+    - dig @172.28.5.1 tiendadeelectronica.int
 
 ![foto9](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker1.png)
 
 #
-    - dig owncloud.tiendadeelectronica.int
+    - dig 172.28.5.1 tiendadeelectronica.int
 
 ![foto9](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker2.png)
 
