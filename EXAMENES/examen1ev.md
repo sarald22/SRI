@@ -161,12 +161,12 @@ Entramos a la terminal del contenedor de la siguiente manera e introducimos los 
 #
     - dig www.tiendadeelectronica.int
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker1.png)
+![foto9](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker1.png)
 
 #
     - dig owncloud.tiendadeelectronica.int
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker2.png)
+![foto9](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digdocker2.png)
 
 #
 - Muestra en los logs que el servicio arranca correctamente
@@ -175,14 +175,14 @@ Los logs podemos verlos de 2 maneras:
 
 Los que nos salen en la terminal, bien iniciando el contenedor o poniendo el comando 'docker-compose logs asir_bind9_examen':
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/encendiendodocker.png)
+![foto10](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/encendiendodocker.png)
 
 
 O yendo al apartado de docker y clicando encima del servidor y dandole a 'view logs': 
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/encendido.png)
+![foto10](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/encendido.png)
 
-![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/logsdocker.png)
+![foto10](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/logsdocker.png)
 
 
 
@@ -208,12 +208,12 @@ Ahora hacemos un 'sudo service bind9 restart' y vemos el estado del DNS con 'sud
 
 Ahora en la terminal ponermos los comandos de ejemplo:
 
-    - dig www.tiendadeelectronica.int
+    - dig 10.0.2.15 tiendadeelectronica
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digbind1.png)
 
 #
-    - dig owncloud.tiendadeelectronica.int
+    - dig @10.0.2.15 tiendadeelectronica
 
 ![fotozona](https://github.com/sarald22/SRI/blob/main/EXAMENES/imagenes/digbind2.png)
 
