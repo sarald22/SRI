@@ -1,7 +1,7 @@
 services:
 
   asir_web1:
-    container_name: asir_web1
+    container_name: asir_ejercicio1
     image: httpd:2.4
     ports:
       - "8000:80"
@@ -12,7 +12,7 @@ services:
 #       ipv4_address: 172.17.0.30
 
   asir_web2:
-    container_name: asir_web2
+    container_name: asir_ejercicio2
     image: httpd:2.4
     ports:
       - "8080:80"
