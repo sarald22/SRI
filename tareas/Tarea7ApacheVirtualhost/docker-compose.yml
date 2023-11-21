@@ -8,22 +8,31 @@ services:
       - "80:80"
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
+      - ./confApache:/usr/local/apache2/conf
     networks:
      my-network:
        ipv4_address: 172.17.0.30
+    #dns:
+    #- 
 
   asir_ejercicio2:
     container_name: asir_ejercicio2
-    image: httpd:2.4
+    image: ubuntu/bind9
+    platform: linux/amd64
     ports:
-      - "8080:80"
+      - "53:53"
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
+      - ./conf:etc/bind
+      - ./zonas:var/lib/bind
     networks:
      my-network:
        ipv4_address: 172.17.0.40
 
 networks:
-  proyectoApache_subnet: 
-    external: true
+  my-network:
+    ipam:
+      config:
+        - subnet: 172.17.0.0/16
+          gateway: 172.17.0.1
           
