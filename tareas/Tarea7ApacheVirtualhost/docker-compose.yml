@@ -1,31 +1,29 @@
 services:
 
-  asir_web1:
+  asir_ejercicio1:
     container_name: asir_ejercicio1
     image: httpd:2.4
     ports:
       - "8000:80"
+      - "80:80"
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
-#    networks:
-#     my-network:
-#       ipv4_address: 172.17.0.30
+    networks:
+     my-network:
+       ipv4_address: 172.17.0.30
 
-  asir_web2:
+  asir_ejercicio2:
     container_name: asir_ejercicio2
     image: httpd:2.4
     ports:
       - "8080:80"
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
-#    networks:
-#     my-network:
-#       ipv4_address: 172.17.0.40
+    networks:
+     my-network:
+       ipv4_address: 172.17.0.40
 
 networks:
-  my-network:
-    ipam:
-      config:
-        - subnet: 172.17.0.0/16
-          gateway: 172.17.0.1
+  proyectoApache_subnet: 
+    external: true
           
