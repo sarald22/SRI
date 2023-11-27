@@ -32,6 +32,7 @@ services:
       
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
+      - ./confApache:/usr/local/apache2/conf/extra
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
 
