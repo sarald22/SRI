@@ -32,9 +32,16 @@ services:
       - ./paginas:/usr/local/apache2/htdocs
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
+    
+
+  dns-server:
+    container_name: asir_dns_tarea7
+    image: pihole/pihole:latest
     networks:
-     my-network:
-       ipv4_address: 172.30.0.40
+      my-network:
+        ipv4_address: 172.30.0.50
+
+
 # red propia
 networks:
   my-network:
