@@ -46,3 +46,9 @@
 #
 #### 5. Configura dos virtual-host separados para cada dominio en el mismo puerto (80)
 
+
+![confmaravillosas](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/confmaravillosas.png)
+
+![confoscuras](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/confoscuras.png)
+
+![confapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/confapache.png)

@@ -10,6 +10,8 @@ services:
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
       - ./confApache:/usr/local/apache2/conf
+      - ./confApache:/usr/local/apache2/conf/extra
+
     networks:
      my-network:
         # ip fija del contenedor
