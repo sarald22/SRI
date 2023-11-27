@@ -1,12 +1,10 @@
 
-### Tarea 7: Apache + Virtual Host 
+## Tarea 7: Apache + Virtual Host 
 
 #### 1. Utiliza el repositorio en github del ejercicio anterior
-
-
 #### 2. Crea un Readme.md para ir documentando los pasos, utiliza esta guía de markdown para la redacción
-
-
+#
+#
 #### 3. Añade un DNS al docker-compose (puedes usar el que ya tienes)
 
 
