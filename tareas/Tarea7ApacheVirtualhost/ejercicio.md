@@ -9,16 +9,16 @@
 
 - Añadimos el DNS hacia el final del documento, asi como indicamos en la foto:
 
-![dockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedordns.png)
+![contenedordns](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedordns.png)
 
 #
 #### 2. Utiliza docker-compose para configurar las IP fijas a los dos contenedores acuerdate de usar los prefijos asir_ en los nombres de los contenedores
 
 - Configuramos las redes individuales de los contenedores:
 
-![dockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedordn1.png)
+![contenedor1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedor1.png)
 
-![dockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedordn2.png)
+![contenedor2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedor2.png)
 
 
 - Aquí podemos ver que encienden correctamente:
