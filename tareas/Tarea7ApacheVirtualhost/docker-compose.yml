@@ -1,21 +1,22 @@
 # Contenedor de apache
 services:
-  web:
-    container_name: asir_apache
-    image: httpd:latest
+
+  asir_sitio1:
+    container_name: asir_sitio1
+    image: httpd:2.4
     ports:
-      - "80:80"
+      - "8000:80"
     # mapeamos el directorio raiz
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
       - ./confApache:/usr/local/apache2/conf
     networks:
-      mi_red:
+     my-network:
         # ip fija del contenedor
-        ipv4_address: 10.1.0.50
+       ipv4_address: 172.30.0.30
   # contenedor servidor de dns - bind9
-  bind9:
-    container_name: asir_bind9
+  asir_sitio2:
+    container_name: asir_sitio2
     # usamos esta imagen para poder ver los logs
     # la imagen de internetsystemsconsortium/bind9
     # no muestra los logs
@@ -25,18 +26,19 @@ services:
     # ya que no existe una imagen para esa plataforma
     platform: linux/amd64
     ports:
-      - 53:53
-    networks:
-      mi_red:
-        ipv4_address: 10.1.0.2
+      - "53:53"
+      
     volumes:
+      - ./paginas:/usr/local/apache2/htdocs
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
+    networks:
+     my-network:
+       ipv4_address: 172.30.0.40
 # red propia
 networks:
-  mi_red:
-    ipam: 
-      driver: default
+  my-network:
+    ipam:
       config:
-        - subnet: 10.1.0.0/16
-          gateway: 10.1.0.1
+        - subnet: 172.30.0.0/16
+          gateway: 172.30.0.1
