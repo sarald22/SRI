@@ -27,10 +27,16 @@
 
 ![dockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedores.png)
 
+
 #
 #### 3. El DNS tiene que resolver dos dominios a la ip del apache, por ejemplo:
 ####        - www.fabulasoscuras.com
 ####        - www.fabulasmaravillosas.com
+
+- Una vez que nos funciona correctamente cada contenedor, seguimos configurando el dns y los sitios
+- Vamos a la carpeta "confApache" y creamos las conf de los 2 sitios, asi como se muestra en la imagen:
+
+![confsitios](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/conffabulas.png)
 
 
 #
