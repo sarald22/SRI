@@ -6,7 +6,7 @@
 #
 #
 #### 3. Añade un DNS al docker-compose (puedes usar el que ya tienes)
-
+![dockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/dockertarea7)
 
 #
 #### 4. Utiliza docker-compose para configurar las IP fijas a los dos contenedores acuerdate de usar los prefijos asir_ en los nombres de los contenedores
