@@ -8,7 +8,7 @@ services:
       - "8000:80"
     # mapeamos el directorio raiz
     volumes:
-      - ./paginas:/usr/local/apache2/htdocs
+      - ./paginas/Carpeta:/usr/local/apache2/htdocs
       - ./confApache:/usr/local/apache2/conf
       - ./confApache:/usr/local/apache2/conf/extra
 

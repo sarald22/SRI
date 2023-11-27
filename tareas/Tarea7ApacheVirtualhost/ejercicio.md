@@ -42,13 +42,20 @@
 #
 #### 4. Prueba a utilizar la directiva DirectoryIndex
 
-
-#
-#### 5. Configura dos virtual-host separados para cada dominio en el mismo puerto (80)
-
+- La conf de fabulas maravillosas ya creada en la carpeta confApache
 
 ![confmaravillosas](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/confmaravillosas.png)
 
+
+- La conf de fabulas maravillosas ya creada en la carpeta confApache
+
 ![confoscuras](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/confoscuras.png)
 
+
+- La conf de fabulas maravillosas ya creada en la carpeta confApache
+
 ![confapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/confapache.png)
+
+
+#
+#### 5. Configura dos virtual-host separados para cada dominio en el mismo puerto (80)
