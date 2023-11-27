@@ -14,6 +14,7 @@ services:
      my-network:
         # ip fija del contenedor
        ipv4_address: 172.30.0.30
+
   # contenedor servidor de dns - bind9
   asir_sitio2:
     container_name: asir_sitio2
@@ -22,8 +23,7 @@ services:
     # no muestra los logs
     image: ubuntu/bind9
     # especificamos la plataforma de la imagen
-    # es posible conflicto cuando el host es 'arm'
-    # ya que no existe una imagen para esa plataforma
+    # es posible conflicto si el host es 'arm' porque no existe una imagen para esa plataforma
     platform: linux/amd64
     ports:
       - "53:53"
@@ -32,8 +32,12 @@ services:
       - ./paginas:/usr/local/apache2/htdocs
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
-    
 
+    networks:
+     my-network:
+        # ip fija del contenedor
+       ipv4_address: 172.30.0.40
+    
   dns-server:
     container_name: asir_dns_tarea7
     image: pihole/pihole:latest
