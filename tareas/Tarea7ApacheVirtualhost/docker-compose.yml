@@ -10,7 +10,7 @@ services:
     volumes:
       - ./paginas/Carpeta:/usr/local/apache2/htdocs
       - ./confApache:/usr/local/apache2/conf
-      - ./confApache:/usr/local/apache2/conf/extra
+      - ./confApache/extra:/usr/local/apache2/conf/extra
 
     networks:
      my-network:
