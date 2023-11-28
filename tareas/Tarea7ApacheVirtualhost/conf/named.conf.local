@@ -1,7 +1,7 @@
 
 zone "fabulasmaravillosas.int" {
 	type master;
-	file "/var/lib/bind/db.fabulasmaravillosas.int";
+	file "../zonas/db.fabulasmaravillosas.int";
 	allow-query {
 		any;
 		};
@@ -9,7 +9,7 @@ zone "fabulasmaravillosas.int" {
 
 zone "fabulasoscuras.int" {
 	type master;
-	file "/var/lib/bind/db.fabulasoscuras.int";
+	file "../zonas/db.fabulasoscuras.int";
 	allow-query {
 		any;
 		};
