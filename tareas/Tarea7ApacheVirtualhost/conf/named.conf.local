@@ -1,16 +1,16 @@
 
 zone "fabulasmaravillosas.int" {
-	type master;
-	file "../zonas/db.fabulasmaravillosas.int";
-	allow-query {
-		any;
-		};
-	};
+    type master;
+    file "/etc/bind/zonas/db.fabulasmaravillosas.int";
+    allow-query {
+        any;
+    };
+};
 
 zone "fabulasoscuras.int" {
-	type master;
-	file "../zonas/db.fabulasoscuras.int";
-	allow-query {
-		any;
-		};
-	};
+    type master;
+    file "/etc/bind/zonas/db.fabulasoscuras.int";
+    allow-query {
+        any;
+    };
+};

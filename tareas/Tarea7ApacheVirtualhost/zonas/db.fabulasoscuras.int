@@ -6,6 +6,6 @@ $TTL 38400	; 10 hours 40 minutes
 				604800     ; expire (1 week)
 				38400      ; minimum (10 hours 40 minutes)
 				)
-@		IN NS	ns
+@		IN NS	ns.fabulasoscuras.int.
 ns		IN A		172.30.0.40
-www		IN A		172.30.0.40
+www		IN A		172.30.0.50
