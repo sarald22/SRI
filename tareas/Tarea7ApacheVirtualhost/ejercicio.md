@@ -23,7 +23,7 @@
 
 - Aquí podemos ver que encienden correctamente:
 
-![dockerfuncionando](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/dockerfuncionando.png)
+![contenedoresfuncionando](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedoresfuncionando.png)
 
 ![dockercompose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/contenedores.png)
 
