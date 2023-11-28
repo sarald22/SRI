@@ -82,3 +82,14 @@ Entramos en la carpeta 'confApache' y en 'extra' metemos la conf de las zonas de
 ![apachereiniciado](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/apachereiniciado.png)
 
 
+
+#
+#
+- Aqui podemos ver el funcinamiento de los host:
+
+![index](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/index.png)
+
+![index2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/index.png)
+
+![enlace](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/index.png)
+

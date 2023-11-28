@@ -10,7 +10,6 @@ services:
     volumes:
       - ./paginas/Carpeta:/usr/local/apache2/htdocs
       - ./confApache:/usr/local/apache2/conf
-      - ./confApache/extra:/usr/local/apache2/conf/extra
 
     networks:
      my-network:
@@ -32,7 +31,7 @@ services:
       
     volumes:
       - ./paginas:/usr/local/apache2/htdocs
-      - ./confApache:/usr/local/apache2/conf/extra
+      - ./confApache/extra:/usr/local/apache2/conf/extra
       - ./conf:/etc/bind
       - ./zonas:/var/lib/bind
 
