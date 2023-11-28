@@ -44,6 +44,10 @@
 ![conflocal](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/conflocal.png)
 
 
+- El archivo 'named.conf' debe quedar asi:
+
+![namedconf](https://github.com/sarald22/SRI/blob/main/tareas/Tarea7ApacheVirtualhost/imagenes/namedconf.png)
+
 
 
 #
