@@ -49,6 +49,15 @@
 #
 8. **Declarar una asignación por mac fija a 172.16.0.5**
 
+![mac](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/mac.png)
+
+![macrestart](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/macrestart.png)
+
+![clienteinterfaces](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/clienteinterfaces.png)
+
+![ipaddrshow](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/ipaddrshow.png)
+
+
 
 
 
