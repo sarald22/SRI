@@ -31,19 +31,19 @@
 #
 5. **Arranca el servicio con systemctl**
 
-![restart](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
+![start](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
 
 
 #
 6. **Comprueba el servicio con "systemctl status"**
 
-
+![restart](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
 
 
 #
 7. **Prueba con el cliente que se le asigna un ip en el rango**
 
-
+![ipacliente](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/ipacliente.png)
 
 
 #
