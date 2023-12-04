@@ -60,10 +60,10 @@
 
 
 
-
-
 #
 9. **Prueba con otro cliente que se le asigna la ip fija**
 
+![host2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/host2.png)
 
+![restart2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/restart2.png)
 
