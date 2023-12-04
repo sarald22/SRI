@@ -1,8 +1,8 @@
-Cnfigura un servidor de DHCP, en la máquina virtual de linux.
+#### Configura un servidor de DHCP, en la máquina virtual de linux.
 
-El DHCP, servirá la ip a otra máquina que estén en la misma red (red interna de VirtualBox); para probarlo tendras que levantar otra máquina virtual.
+#### El DHCP, servirá la ip a otra máquina que estén en la misma red (red interna de VirtualBox); para probarlo tendras que levantar otra máquina virtual.
 
-Pasos:
+#### Pasos:
 
 1. Instalar paquete isc-dhcp-server
 2. Editar para una configuración básica /etc/dhcp/dhcpd.conf
