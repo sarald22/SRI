@@ -7,7 +7,9 @@
 1. **Instalar paquete isc-dhcp-server**
 
 Abrimos el servidor y ponemos
+
             apt install isc-dhcp-server 
+
 de esta manera instalaremos el dhcp en nuestroo servidor
 
 ![instalacion](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/instalacion.png)
@@ -17,7 +19,9 @@ de esta manera instalaremos el dhcp en nuestroo servidor
 2. **Editar para una configuración básica /etc/dhcp/dhcpd.conf**
 
 Accedemos a la configuración con:
+
             nano /etc/dhcp/dhcp:conf
+
 y modificamos las lineas mostradas a continuación:
 
 ![dhcpd1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/dhcpd1.png)
@@ -32,10 +36,22 @@ aquí configuramos la red del servidor y del cliente
 3. **Editar para configurar la interfaz de red /etc/default/isc-dchp-server**
 
 Accedemos al documento con
+
             nano /etc/default/isc-dhcp-server
-y ponemos de qué adaptador queremos que coja la red el servidor, para realizar las conexiones cliente-servidor
+
+y ponemos de qué interfaz queremos que coja la red el servidor, para realizar las conexiones cliente-servidor
 
 ![iscdhcp](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/iscdhcp.png)
+
+
+Guardamos los cambios y hacemos un restart del servidor DHCP con
+
+            sudo systemctl restart isc-dhcp-server
+
+Miramos su estado con:
+
+            sudo systemctl status isc-dhcp-server
+
 
 
 #
