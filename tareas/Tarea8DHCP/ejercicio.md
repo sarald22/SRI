@@ -15,23 +15,28 @@
 ![dhcpd1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/dhcpd1.png)
 ![dhcpd2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/dhcpd2.png)
 
+
 #
 3. **Editar para configurar la interfaz de red /etc/default/isc-dchp-server**
 
+![iscdhcp](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/iscdhcp.png)
 
 
 #
 4. **Declarar una subnet 172.16.0.0/16**
 
+![subnet](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
 
 
 #
 5. **Arranca el servicio con systemctl**
 
+![restart](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
 
 
 #
 6. **Comprueba el servicio con "systemctl status"**
+
 
 
 
@@ -40,8 +45,10 @@
 
 
 
+
 #
 8. **Declarar una asignación por mac fija a 172.16.0.5**
+
 
 
 
