@@ -6,7 +6,7 @@
 
 1. **Instalar paquete isc-dhcp-server**
 
-![instalacion] (https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/instalacion.png)
+![instalacion](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/instalacion.png)
 
 2. **Editar para una configuración básica /etc/dhcp/dhcpd.conf**
 
