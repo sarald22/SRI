@@ -108,7 +108,7 @@ y ponemos de qué interfaz queremos que coja la red el servidor, para realizar l
 
 ![mac](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/mac.png)
 
-- De esta manera se le asignará al cliente esa subred indicada, en función de su mac.
+De esta manera se le asignará al cliente esa subred indicada, en función de su mac.
 
 #
 
@@ -158,3 +158,4 @@ y añadimos las siguientes lineas:
 
 ![ipaddrshow2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/ipaddrshow2.png)
 
+#
