@@ -6,13 +6,14 @@
 
 1. **Instalar paquete isc-dhcp-server**
 
-Abrimos el servidor y ponemos
+Abrimos el servidor y ponemos:
 
             apt install isc-dhcp-server 
 
 de esta manera instalaremos el dhcp en nuestroo servidor
 
 ![instalacion](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/instalacion.png)
+
 
 
 #
@@ -32,10 +33,11 @@ aquí configuramos la red del servidor y del cliente
 ![dhcpd2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/dhcpd2.png)
 
 
+
 #
 3. **Editar para configurar la interfaz de red /etc/default/isc-dchp-server**
 
-Accedemos al documento con
+Accedemos al documento con:
 
             nano /etc/default/isc-dhcp-server
 
@@ -44,7 +46,7 @@ y ponemos de qué interfaz queremos que coja la red el servidor, para realizar l
 ![iscdhcp](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/iscdhcp.png)
 
 
-Guardamos los cambios y hacemos un restart del servidor DHCP con
+Guardamos los cambios y hacemos un restart del servidor DHCP con:
 
             sudo systemctl restart isc-dhcp-server
 
@@ -60,22 +62,30 @@ Miramos su estado con:
 ![subnet](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
 
 
+
+
 #
 5. **Arranca el servicio con systemctl**
 
-![start](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
+![start](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/start.png)
+
+
 
 
 #
 6. **Comprueba el servicio con "systemctl status"**
 
-![restart](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/subnet.png)
+![restart](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/restart.png)
+
+
 
 
 #
 7. **Prueba con el cliente que se le asigna un ip en el rango**
 
 ![ipacliente](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/ipacliente.png)
+
+
 
 
 #
@@ -88,6 +98,8 @@ Miramos su estado con:
 ![clienteinterfaces](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/clienteinterfaces.png)
 #
 ![ipaddrshow](https://github.com/sarald22/SRI/blob/main/tareas/Tarea8DHCP/imagenes/ipaddrshow.png)
+
+
 
 
 
