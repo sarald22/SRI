@@ -5,23 +5,34 @@
 - El comando "ping"
 - El comando "dig"
 
+Creamos un archivo dockerfile y le añadimos las siguientes lineas:
+
 ![dockerfile](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerfile.png)
+
+
+Para construir la imagen, ponemos el siguiente comando:
+            docker build -t dockerfile /home/asir2/dockerfile
 
 ![dockerfilecreandose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerfilecreandose.png)
 
-docker build -t dockerfile /home/asir2/dockerfile
 
 
 #
 
 - **Una vez realizada crea un repositorio en docker hub y súbela.**
 
-docker login
-docker tag dockerfile sarald22/cliente_ubuntu
-docker push sarald22/cliente_ubuntu
+Para subirla a dockerhub, nos creamos una cuenta y un repositorio en ella, llamado cliente_ubuntu. Para subir el archivo ponemos los siguientes comandos:
+
+            docker login
+
+            docker tag dockerfile sarald22/cliente_ubuntu
+
+            docker push sarald22/cliente_ubuntu
 
 
 ![dockerhub](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerhub.png)
+
+Aquí podemos observar que está subido
 
 ![dockerhub2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerhub2.png)
 
