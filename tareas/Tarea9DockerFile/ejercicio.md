@@ -30,7 +30,25 @@ docker push sarald22/cliente_ubuntu
 #
 - **Pruébala con docker run**
 
+![dockerrun](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerrun.png)
+
+![contenedor](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/contenedor.png)
+
 
 #
 #
 ### 2. Realiza una segunda imagen con el servidor de apache, pero esta vez que incluya una página web personalizada. Utiliza COPY.
+
+![docker](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/docker.png)
+
+![dockerapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerapache.png)
+
+![html](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/html.png)
+
+![imagenapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/imagenapache.png)
+
+![dockerrunapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerrunapache.png)
+
+![contenedorapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/contenedorapache.png)
+
+
