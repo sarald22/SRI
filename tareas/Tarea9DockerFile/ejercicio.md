@@ -41,7 +41,21 @@ Aquí podemos observar que está subido
 #
 - **Pruébala con docker run**
 
+Para crear un contenedor con dicha imagen ponemos el siguiente comando:ç
+
+primero la descargamos con:
+
+            docker pull sarald22/dockerfile
+
+y luego la usamos con
+
+            docker run -i dockerfile
+
+
 ![dockerrun](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerrun.png)
+
+
+Aquí podemos observar el contenedor encendido
 
 ![contenedor](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/contenedor.png)
 
@@ -50,15 +64,32 @@ Aquí podemos observar que está subido
 #
 ### 2. Realiza una segunda imagen con el servidor de apache, pero esta vez que incluya una página web personalizada. Utiliza COPY.
 
+Creamos un archivo docker-compose de apache de la siguiente manera:
+
 ![docker](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/docker.png)
+
+Luego su archivo docker-file
 
 ![dockerapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerapache.png)
 
+Creamos la pagina que queremos que se muestre
+
 ![html](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/html.png)
+
+Construimos la imagen con:
+
+            docker build -t dockerfileapache /home/asir2/dockerfileapache
 
 ![imagenapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/imagenapache.png)
 
+Iniciamos el contenedor con:
+
+            docker run -i -p 8080:80 dockerfileapache
+
 ![dockerrunapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerrunapache.png)
+
+
+Y aquí podemos observar el contenedor iniciado y corriendo:
 
 ![contenedorapache](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/contenedorapache.png)
 
