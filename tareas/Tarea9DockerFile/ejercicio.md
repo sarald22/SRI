@@ -13,7 +13,7 @@ docker push sarald22/[nombre repositorio]
 - El comando "ping"
 - El comando "dig"
 
-![dockerfile](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/imagedockerfile.png)
+![dockerfile](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerfile.png)
 
 ![dockerfilecreandose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerfilecreandose.png)
 
@@ -25,8 +25,6 @@ docker push sarald22/[nombre repositorio]
 ![dockerhub2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerhub2.png)
 
 
-
-#### Comandos para etiquetar y subir imagen al repositorio.
 
 #### Pruébala con docker run.
 
