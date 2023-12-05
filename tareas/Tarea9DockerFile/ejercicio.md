@@ -13,10 +13,18 @@ docker push sarald22/[nombre repositorio]
 - El comando "ping"
 - El comando "dig"
 
+![dockerfile](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/imagedockerfile.png)
 
+![dockerfilecreandose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerfilecreandose.png)
 
 
 #### Una vez realizada crea un repositorio en docker hub y súbela.
+
+![dockerhub](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerhub.png)
+
+![dockerhub2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerhub2.png)
+
+
 
 #### Comandos para etiquetar y subir imagen al repositorio.
 
