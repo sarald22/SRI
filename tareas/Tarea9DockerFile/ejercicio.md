@@ -1,12 +1,4 @@
-para crear iamgen de un dockerfile
-docker build -t nombre_imagen [ruta dockerfile]
 
-
-subir a dockerhub
-
-docker login
-docker tag dockerfile sarald22/cliente_ubuntu
-docker push sarald22/[nombre repositorio]
 
 #### 1. Realiza una imagen personalizada de un ubuntu 22.04 que contenga:
 - El comando "ip"
@@ -17,9 +9,17 @@ docker push sarald22/[nombre repositorio]
 
 ![dockerfilecreandose](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerfilecreandose.png)
 
+docker build -t dockerfile /home/asir2/dockerfile
+
+
 #
 #
 #### Una vez realizada crea un repositorio en docker hub y súbela.
+
+docker login
+docker tag dockerfile sarald22/cliente_ubuntu
+docker push sarald22/cliente_ubuntu
+
 
 ![dockerhub](https://github.com/sarald22/SRI/blob/main/tareas/Tarea9DockerFile/imagenes/dockerhub.png)
 
