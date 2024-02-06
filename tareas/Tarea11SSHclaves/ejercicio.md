@@ -41,14 +41,14 @@ De esta manera generaremos una clave público-privada que aplique seguridad a la
 ![2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/2.png)
 
 
-
+##
 - **Añadimos la clave SSH al SSH-agent:** esto sirve para que el agente pueda administrar las claves:
 
             ssh-add ~/.ssh/id_rsa
 
 ![3](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/3.png)
 
-
+#
 - **Copiamos la clave pública:**
 
             pbcopy < ~/.ssh/id_rsa.pub
