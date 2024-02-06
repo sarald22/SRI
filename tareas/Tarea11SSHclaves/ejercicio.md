@@ -13,6 +13,8 @@ y lo activamos con:
 
             ssh-keygen -t rsa -b 4096
 
+![1](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/1.png)
+
 De esta manera generaremos una clave público-privada que aplique seguridad a la conexión.
 
 - Copiamos la clave al otro equipo al que vamos a conectarnos con:
@@ -36,15 +38,22 @@ De esta manera generaremos una clave público-privada que aplique seguridad a la
 
             ssh-keygen -t rsa -b 4096 -C "slamasdiz@danielcastelao.org"
 
+![2](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/2.png)
+
+
 
 - **Añadimos la clave SSH al SSH-agent:** esto sirve para que el agente pueda administrar las claves:
 
             ssh-add ~/.ssh/id_rsa
 
+![3](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/3.png)
+
 
 - **Copiamos la clave pública:**
 
             pbcopy < ~/.ssh/id_rsa.pub
+
+![4](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/4.png)
 
 
 - **Ahora la agregamos a Github:** iniciamos sesión en Github y vamos a la configuración del perfil:
