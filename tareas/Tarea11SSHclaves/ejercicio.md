@@ -49,11 +49,11 @@ De esta manera generaremos una clave público-privada que aplique seguridad a la
 
 4. **Ahora la agregamos a Github:** iniciamos sesión en Github y vamos a la configuración del perfil:
 
-- En el menú de la izquierda, entra en "SSH and GPG keys" y clica en "New SSH key" o "Add SSH key".
+    - En el menú de la izquierda, entra en "SSH and GPG keys" y clica en "New SSH key" o "Add SSH key".
 
-- En "Title" le ponemos un nombre a la clave SSH y en "key" pegamos la clave pública que copiamos.
+    - En "Title" le ponemos un nombre a la clave SSH y en "key" pegamos la clave pública que copiamos.
 
-- Guardamos cambios en "Add SSH key".
+    - Guardamos cambios en "Add SSH key".
 
 
 Una vez completado todo esto, ya tendríamos el SSH correctamente configurado con nuestra cuenta de GitHub.
