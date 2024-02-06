@@ -48,14 +48,14 @@ De esta manera generaremos una clave público-privada que aplique seguridad a la
 
 ![3](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/3.png)
 
-#
+##
 - **Copiamos la clave pública:**
 
             pbcopy < ~/.ssh/id_rsa.pub
 
 ![4](https://github.com/sarald22/SRI/blob/main/tareas/Tarea11SSHclaves/imagenes/4.png)
 
-
+##
 - **Ahora la agregamos a Github:** iniciamos sesión en Github y vamos a la configuración del perfil:
 
     - En el menú de la izquierda, entra en "SSH and GPG keys" y clica en "New SSH key" o "Add SSH key".
