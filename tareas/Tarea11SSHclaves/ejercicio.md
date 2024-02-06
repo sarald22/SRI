@@ -32,3 +32,9 @@ De esta manera generaremos una clave público-privada que aplique seguridad a la
 #
 ### 2. Como configurar el acceso ssh en el GitHub
 
+
+1. **Generamos claves SSH:** 
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "slamasdiz@danielcastelao.org"
+```
