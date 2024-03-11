@@ -46,7 +46,7 @@
 
 #
 
-## 3. instalamos el paquete de webhooks de discord; puede ser por terminal o por interfaz.
+## 3. Instalamos el paquete de webhooks de discord; puede ser por terminal o por interfaz.
 
 - Por interfaz sería con el comando:
 
@@ -56,4 +56,22 @@
 - Por interfaz sería yendo a Python Pakcges, buscando el paquete y dándole a instalar:
 
 ![instalacion](https://github.com/sarald22/SRI/blob/main/tareas/TareaAWS_DC/img/dcinstall.png)
+
+
+#
+
+## 4. Una vez tengamos todo configurado correctamente en un directorio, comprimimos en un archivo '.zip'.
+
+#
+
+## 5. Para subir esto a AWS:
+
+Entramos a nuetra cuenta y creamos una Función.
+
+Le damos en 'Capas' a 'Crear capa' y subimos ahí el archivo ZIP creado anteriormente.
+
+Seleccionamos una versión de Python compatible y creamos la función.
+
+
+De esta manera ya quedaría creado el virtual enviroment y configurado en AWS.
 
