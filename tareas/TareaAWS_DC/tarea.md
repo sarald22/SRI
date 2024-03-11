@@ -38,6 +38,22 @@ Explica como se crea un virtual environment y como se configura la capa de la fu
 
 #
 
+
 #2. Ejecutamos el comando "source venv/bin/activate" para activar el entorno virtual.
 
-![VENV]()
+![VENV](https://github.com/sarald22/SRI/blob/main/tareas/TareaAWS_DC/img/venv.png)
+
+
+#
+
+#3. instalamos el paquete de webhooks de discord; puede ser por terminal o por interfaz.
+
+- Por interfaz sería con el comando:
+
+            pip install discord-webhooks
+
+
+- Por interfaz sería yendo a Python Pakcges, buscando el paquete y dándole a instalar:
+
+![instalacion](https://github.com/sarald22/SRI/blob/main/tareas/TareaAWS_DC/img/dcinstall.png)
+
