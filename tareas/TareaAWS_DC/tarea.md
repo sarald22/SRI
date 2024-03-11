@@ -3,7 +3,7 @@ Entrega un Readme con la explicación de como ejecutar la aplicación en python 
 Explica como se crea un virtual environment y como se configura la capa de la funciones.
 
 
-1. Abrimos Pycharm en nuestro equipo y escribimos el siguiente codigo:
+# 1. Abrimos Pycharm en nuestro equipo y escribimos el siguiente codigo:
 
             # importamos las librerias necesarias
             from discord_webhook import DiscordWebhook, DiscordEmbed
@@ -36,6 +36,8 @@ Explica como se crea un virtual environment y como se configura la capa de la fu
                     'body': json.dumps('Hello from Discord Lambda!')
     }
 
+#
 
-2. Ejecutamos el comando "source venv/bin/activate" para activar el entorno virtual.
+#2. Ejecutamos el comando "source venv/bin/activate" para activar el entorno virtual.
 
+![VENV]()
